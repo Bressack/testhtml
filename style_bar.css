@@ -16,7 +16,7 @@ body
 	background-color: black;
 }
 
-.navbar /* RED */
+.navbar
 {
 	border-bottom: 1px solid black;
 	background-color: gray;
@@ -24,28 +24,30 @@ body
 	padding: 0.5% 5%;
 }
 
-.navbar__sf /* GREEN */
+.navbar__sf
 {
 	width: 100%;
 	display: table;
 }
 
-.navbar__sf__index /* BLUE */
+.navbar__sf__index
 {
 	display: table-cell;
 }
 
-.navbar__sf__links /* BLUE */
+/*
+.navbar__sf__links
+{
+	display: table-cell;
+}
+*/
+
+.navbar__sf__links__sf
 {
 	display: table-cell;
 }
 
-.navbar__sf__links__sf /* MAGENTA */
-{
-	display: table-cell;
-}
-
-.navbar__sf__bilan /* BLUE */
+.navbar__sf__bilan
 {
 	display: table-cell;
 }
