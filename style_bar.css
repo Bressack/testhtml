@@ -29,7 +29,6 @@ body
 	margin: 0% 0% 0% 0%;
 	padding: 0% 0% 0% 0%;
 	display: table;
-
 }
 
 .navbar__sf__index /* BLUE */
@@ -42,8 +41,7 @@ body
 .navbar__sf__links /* BLUE */
 {
 	margin: 0% 0% 0% 0%;
-	/* padding: 0% 0% 47px 0%; */
-	/* padding: 100%; */
+	padding: 0% 0% 0% 0%;
 	display: table;
 }
 
@@ -56,6 +54,8 @@ body
 
 .navbar__sf__bilan /* BLUE */
 {
+	margin: 0% 0% 0% 0%;
+	padding: 0% 0% 0% 0%;
 	display: table-cell;
 }
 
