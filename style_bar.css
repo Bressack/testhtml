@@ -13,7 +13,7 @@
 body
 {
 	margin: 0;
-	background-color: black;
+	/* background-color: black; */
 }
 
 .navbar
@@ -33,25 +33,51 @@ body
 .navbar__sf__index
 {
 	display: table-cell;
+	background-image: url('accueil.png');
+	/* background-image: url('http://www.commentplacermonargent.fr/sites/default/files/placer-argent.png'); */
+	background-size: 299px 65px;
+	background-color: white;
+	width: 299px;
+	height: 65px;
+	background-repeat: no-repeat
 }
 
-/*
 .navbar__sf__links
+{
+	/* display: table-cell; */
+	padding: 0% 5% 0% 5%;
+	height: 100%;
+}
+
+.navbar__sf__links > form
 {
 	display: table-cell;
 }
-*/
 
 .navbar__sf__links__sf
 {
 	display: table-cell;
+	width: 170px;
+	height: 70px;
+	background-color: brown;
+	font-family: Andale Mono;
+}
+
+.button > a
+{
+	text-decoration: none;
 }
 
 .navbar__sf__bilan
 {
+	margin-left: 50px;
 	display: table-cell;
+	width: 260px;
+	height: 80px;
+	background-color: orange;
+	font-family: Andale Mono;
+	font-size: 10px;
 }
-
 
 /* DEBUG ************************************************* */
 

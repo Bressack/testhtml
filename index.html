@@ -5,7 +5,7 @@
      By: tharchen <tharchen@student.42.fr>          +#+  +:+       +#+
                                                   +#+#+#+#+#+   +#+
      Created: 2020/08/10 21:55:24 by tharchen          #+#    #+#
-     Updated: 2020/08/18 15:36:14 by tharchen         ###   ########.fr
+     Updated: 2020/08/20 18:10:16 by tharchen         ###   ########.fr
 -->
 
 <!DOCTYPE html>
@@ -14,21 +14,20 @@
 		<meta charset="utf-8">
 		<title>ft_testhtml</title>
 		<link rel="stylesheet" href="style_bar.css" />
-		<link rel="stylesheet" href="style_index.css" />
 	</head>
 	<body>
-		<div class="navbar debug">
+		<div class="navbar">
 			<div class="navbar__sf">
-				<div class="navbar__sf__index"><a href="index.html"><img src="http://www.commentplacermonargent.fr/sites/default/files/placer-argent.png" alt="Accueil"></a></div>
-				<!-- <div class="navbar__sf__links"> -->
-					<div class="navbar__sf__links__sf"><a href="pinel.html">LOI PINEL</a></div>
-					<div class="navbar__sf__links__sf"><a href="products.html">NOS PRODUITS</a></div>
-					<div class="navbar__sf__links__sf"><a href="defiscalisation.html">DEFISCALISATION</a></div>
-					<div class="navbar__sf__links__sf"><a href="simulateur.html">SIMULATEURS</a></div>
-					<div class="navbar__sf__links__sf"><a href="team.html">LA TEAM</a></div>
-				<!-- </div> -->
-				<div class="navbar__sf__bilan">
-					BILAN
+				<div class="navbar__sf__index">
+					<a href="index.html"></a>
+				</div>
+				<div class="navbar__sf__links">
+					<form action="pinel.html">           <input class="button navbar__sf__links__sf" type="submit" value="LOI PINEL" /></form>
+					<form action="products.html">        <input class="button navbar__sf__links__sf" type="submit" value="NOS PRODUITS" /></form>
+					<form action="defiscalisation.html"> <input class="button navbar__sf__links__sf" type="submit" value="DEFISCALISATION" /></form>
+					<form action="simulateur.html">      <input class="button navbar__sf__links__sf" type="submit" value="SIMULATEURS" /></form>
+					<form action="team.html">            <input class="button navbar__sf__links__sf" type="submit" value="LA TEAM" /></form>
+					<form action="bilan.html">           <input class="button navbar__sf__bilan"     type="submit" value="Commencer mon bilan" /></form>
 				</div>
 			</div>
 		</div>
